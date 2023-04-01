@@ -108,7 +108,7 @@
 
   // Toggle.
   $navPanelToggle = $(
-    '<a href="#navPanel" id="navPanelToggle">Contact</a>'
+    '<a href="#navPanel" id="navPanelToggle">Dashboard</a>'
   ).appendTo($wrapper);
 
   // Change toggle styling once we've scrolled past the header.
