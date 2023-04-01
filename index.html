@@ -27,8 +27,6 @@
           Portfolio
         </h1>
         <p>A showcase of my projects and abilities.</p>
-        <p>Designed By</p>
-        <p>Kyle Baumann</p>
 
         <ul class="actions">
           <li>
@@ -43,13 +41,13 @@
 
       <!-- Header -->
       <header id="header">
-        <a href="index.html" class="logo">Massively</a>
+        <a href="index.html" class="logo">Welcome</a>
       </header>
 
       <!-- Nav -->
       <nav id="nav">
         <ul class="links">
-          <li class="active"><a href="index.html">This is Massively</a></li>
+          <li class="active"><a href="index.html">Dashboard</a></li>
         </ul>
         <ul class="icons">
           <li>
@@ -76,133 +74,71 @@
         <article class="post featured">
           <header class="major">
             <h2>
-              <a href="#">My name is Kyle Baumann</a>
+              <h1>My name is Kyle Baumann</h1>
             </h2>
 
             <p>
               I'am a passionate developer, but more importantly I am passionate
               about technology.
             </p>
-            <p>
-              Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-              facilisis ante sed etiam magna interdum congue. Lorem ipsum
-              dolor<br />
-              amet nullam sed etiam veroeros.
-            </p>
           </header>
-          <a href="#" class="image main"
-            ><img src="images/pic01.jpg" alt=""
+          <a class="image main"
+            ><img src="images/headshot.jpg" alt=""
           /></a>
           <ul class="actions special">
-            <li><a href="#" class="button large">Check it out</a></li>
+            <li><a href="/more-about-me.html" class="button large">MORE ABOUT ME</a></li>
           </ul>
         </article>
 
         <!-- Posts -->
-        <section class="posts">
-          <article>
-            <header>
-              <h2>
-                <a href="#">About Me</a>
-              </h2>
-            </header>
-            <a href="#" class="image fit"
-              ><img src="images/pic02.jpg" alt=""
-            /></a>
-            <p>
-              Donec eget ex magna. Interdum et malesuada fames ac ante ipsum
-              primis in faucibus. Pellentesque venenatis dolor imperdiet dolor
-              mattis sagittis magna etiam.
-            </p>
-            <ul class="actions special">
-              <li><a href="#" class="button">Full Story</a></li>
-            </ul>
-          </article>
-          <article>
-            <header>
-              <h2>
-                <a href="#">Project 1</a>
-              </h2>
-            </header>
-            <a href="#" class="image fit"
-              ><img src="images/pic03.jpg" alt=""
-            /></a>
-            <p>
-              Donec eget ex magna. Interdum et malesuada fames ac ante ipsum
-              primis in faucibus. Pellentesque venenatis dolor imperdiet dolor
-              mattis sagittis magna etiam.
-            </p>
-            <ul class="actions special">
-              <li><a href="#" class="button">Full Story</a></li>
-            </ul>
-          </article>
-          <article>
-            <header>
-              <h2>
-                <a href="#">Project 2</a>
-              </h2>
-            </header>
-            <a href="#" class="image fit"
-              ><img src="images/pic04.jpg" alt=""
-            /></a>
-            <p>
-              Donec eget ex magna. Interdum et malesuada fames ac ante ipsum
-              primis in faucibus. Pellentesque venenatis dolor imperdiet dolor
-              mattis sagittis magna etiam.
-            </p>
-            <ul class="actions special">
-              <li><a href="#" class="button">Full Story</a></li>
-            </ul>
-          </article>
-          <article>
-            <header>
-              <h2>
-                <a href="#">Project 3</a>
-              </h2>
-            </header>
-            <a href="#" class="image fit"
-              ><img src="images/pic05.jpg" alt=""
-            /></a>
-            <p>
-              Donec eget ex magna. Interdum et malesuada fames ac ante ipsum
-              primis in faucibus. Pellentesque venenatis dolor imperdiet dolor
-              mattis sagittis magna etiam.
-            </p>
-            <ul class="actions special">
-              <li><a href="#" class="button">Full Story</a></li>
-            </ul>
-          </article>
-          <article>
-            <header>
-              <h2>
-                <a href="#">Experience</a>
-              </h2>
-            </header>
-            <a href="#" class="image fit"
-              ><img src="images/pic07.jpg" alt=""
-            /></a>
-            <p>
-              Donec eget ex magna. Interdum et malesuada fames ac ante ipsum
-              primis in faucibus. Pellentesque venenatis dolor imperdiet dolor
-              mattis sagittis magna etiam.
-            </p>
-            <ul class="actions special">
-              <li><a href="#" class="button">Full Story</a></li>
-            </ul>
-          </article>
+        <article>
+      <header>
+        <h2><a href="#">Experience</a></h2>
+      </header>
+      <a href="#" class="image fit"><img src="images/resume2023.png" alt="" id="resume-image"/></a>
+      <ul class="actions special">
+        <li><a href="documents/resume2023.pdf" class="button">Download Resume</a></li>
+      </ul>
+    </article>
+    <script>
+      var resumeImage = document.getElementById("resume-image");
+      resumeImage.addEventListener("click", function() {
+        resumeImage.requestFullscreen();
+      });
+    </script>
           <article>
             <header>
               <h2>
                 <a href="#">Education</a>
               </h2>
             </header>
+            <p>
+              I am currently pursuing an Associates of Applied Science degree 
+              in Software Development from Spokane Community College. I have 
+              maintained a cumulative GPA of 3.3 and I am currently on the Honor Roll. My coursework has equipped 
+              me with essential skills such as JavaScript, React, Kotlin, Swift, PHP, HTML, CSS, 
+              and countless frameworks and methodolgies. In addition, I have completed relevant coursework in 
+              database design, networking, and cybersecurity. I believe that my education has 
+              provided me with a solid foundation to excel in software development and related 
+              roles, and I am eager to continue learning and growing in this field.
+            </p>
+            <ul class="actions special">
+              <li><a href="/education.html" class="button">Full Story</a></li>
+            </ul>
+          </article>
+          <article>
+            <header>
+              <h2>
+               <a href="#">Bid-Pro Website</a>
+              </h2>
+            </header>
             <a href="#" class="image fit"
-              ><img src="images/pic07.jpg" alt=""
+              ><img src="images/pic04.jpg" alt=""
             /></a>
             <p>
-              Donec eget ex magna. Interdum et malesuada fames ac ante ipsum
-              primis in faucibus. Pellentesque venenatis dolor imperdiet dolor
-              mattis sagittis magna etiam.
+              BidPro is a website for pilots of UPS, 
+              Frontier, American, and Alaska Airlines 
+              to bid on work shifts.
             </p>
             <ul class="actions special">
               <li><a href="#" class="button">Full Story</a></li>
@@ -211,16 +147,17 @@
           <article>
             <header>
               <h2>
-                <a href="#">Resume</a>
+                <a href="#">E-commerce Laravel API, CRUD, with Authentication & Authorization</a>
               </h2>
             </header>
             <a href="#" class="image fit"
-              ><img src="images/pic07.jpg" alt=""
+              ><img src="images/pic05.jpg" alt=""
             /></a>
             <p>
-              Donec eget ex magna. Interdum et malesuada fames ac ante ipsum
-              primis in faucibus. Pellentesque venenatis dolor imperdiet dolor
-              mattis sagittis magna etiam.
+              An e-commerce website for "products" containing 
+              an ID, Name, Item Number, Description, Price, 
+              and Image, all from faker. Also includes a fully 
+              functional "Review" section, all of which is Searchable.
             </p>
             <ul class="actions special">
               <li><a href="#" class="button">Full Story</a></li>
