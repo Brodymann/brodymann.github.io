@@ -32,23 +32,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ?>
 
 <!-- HTML form -->
-<form method="post" action="sendemail.php">
-  <div class="fields">
-    <div class="field">
-      <label for="name">Name</label>
-      <input type="text" name="name" id="name" />
-    </div>
-    <div class="field">
-      <label for="email">Email</label>
-      <input type="text" name="email" id="email" />
-    </div>
-    <div class="field">
-      <label for="message">Message</label>
-      <textarea name="message" id="message" rows="3"></textarea>
-    </div>
-  </div>
-  <ul class="actions">
-    <li><input type="submit" value="Send Message" /></li>
-  </ul>
+<!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/xzbqjnjp"
+  method="POST"
+>
+  <label>
+    Your Name:
+    <input type="name" name="name">
+  </label>
+  <label>
+    Your email:
+    <input type="email" name="_replyto" placeholder="Your email address" required>
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
 </form>
 
