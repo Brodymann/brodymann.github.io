@@ -33,17 +33,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <!-- HTML form -->
 <!-- modify this form HTML and place wherever you want your form -->
-<form
-  action="https://formspree.io/f/xzbqjnjp"
-  method="POST"
->
+<form method="post" action="sendemail.php">
   <label>
     Your Name:
     <input type="name" name="name">
   </label>
   <label>
     Your email:
-    <input type="email" name="_replyto" placeholder="Your email address" required>
+  <input type="email" name="_replyto" placeholder="Your email address" required>
   </label>
   <label>
     Your message:
