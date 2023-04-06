@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ?>
 
 <!-- HTML form -->
-<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
+<form method="post" action="sendemail.php">
   <div class="fields">
     <div class="field">
       <label for="name">Name</label>
